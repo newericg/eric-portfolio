@@ -1,13 +1,13 @@
 "use client";
 import { cn } from "@/lib/utils";
 import {
-    AnimatePresence,
-    motion,
-    useMotionValueEvent,
-    useScroll,
+  AnimatePresence,
+  motion,
+  useMotionValueEvent,
+  useScroll,
 } from "framer-motion";
 import Link from "next/link";
-import React, { useState } from "react";
+import { useState } from "react";
 
 export const FloatingNav = ({
   navItems,
@@ -66,7 +66,7 @@ export const FloatingNav = ({
         )}
         style={{
           backdropFilter: "blur(16px) saturate(180%)",
-          backgroundColor: "rgba(17, 25, 40, 0.75)",
+          backgroundColor: "rgb(4, 18, 0)",
           borderRadius: "12px",
           border: "1px solid rgba(255, 255, 255, 0.125)",
         }}
