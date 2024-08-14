@@ -63,7 +63,6 @@ const Card = ({
   title,
   icon,
   children,
-  // add this one for the desc
   des,
 }: {
   title: string;
@@ -115,7 +114,6 @@ const Card = ({
         >
           {title}
         </h2>
-        {/* add this one for the description */}
         <p
           className="text-sm opacity-0 group-hover/canvas-card:opacity-100
          relative z-10 mt-4 group-hover/canvas-card:text-white text-center
@@ -128,7 +126,6 @@ const Card = ({
     </div>
   );
 };
-// add order prop for the Phase number change
 const AceternityIcon = ({ order }: { order: string }) => {
   return (
     <div>
